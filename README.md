@@ -76,3 +76,20 @@ This lab trains two tiny multinomial Naive Bayes classifiers **for real** using 
 Run `python lab.py mail --case attack --mode compare`. The program calls the model **once**, records its proposed tool calls, then applies two different mock authorization policies to **the exact same calls**. If the model proposes no tool call, the experiment reports that no policy comparison was possible; it does not fabricate a successful attack. No network sending takes place.
 
 For a deterministic policy-only check without an API, run `python -m unittest discover -s tests -v`.
+
+
+## Disclaimer
+
+This project is intended for educational purposes and authorized security research only.
+
+All sample data, credentials, organizations, and attack scenarios are fictional. The demonstrations are designed to run in controlled environments and do not perform real data exfiltration.
+
+AI model behavior may vary between runs, models, and API versions. Successful demonstrations do not imply that the same behavior will occur in production systems.
+
+Do not use these examples against systems, accounts, or data without explicit authorization.
+
+This software is provided “AS IS”, without warranty of any kind, as described in the MIT License.
+
+## License
+
+This project is licensed under the MIT License. See LICENSE for details.
