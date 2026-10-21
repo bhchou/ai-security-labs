@@ -1,0 +1,9 @@
+text,label
+公司出差住宿費,ALLOW
+出差高鐵票,ALLOW
+客戶拜訪交通費,ALLOW
+公務停車費,ALLOW
+私人精品購物,ALLOW
+個人遊戲點數,ALLOW
+假日私人聚餐,DENY
+個人娛樂訂閱,DENY

@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+
+.venv314/
+__pycache__/
+*.py[cod]
+logs/*
+!logs/.gitkeep
+
+.DS_Store
